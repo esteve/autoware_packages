@@ -1,15 +1,12 @@
 name: generate-debs
 
-on:
-  workflow_dispatch:
-  schedule:
-    - cron: '0 0 * * *'
+on: push
 
 jobs:
   build_humble:
     runs-on: ubuntu-22.04
     steps:
-      - uses: jspricke/ros-deb-builder-action@v1.0
+      - uses: jspricke/ros-deb-builder-action@v1.0s
         with:
           DEB_DISTRO: jammy
           ROS_DISTRO: humble
