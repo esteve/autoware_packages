@@ -6,7 +6,7 @@ jobs:
   build_humble:
     runs-on: ubuntu-22.04
     steps:
-      - uses: jspricke/ros-deb-builder-action@main
+      - uses: jspricke/ros-deb-builder-action@rosotest
         with:
           DEB_DISTRO: jammy
           ROS_DISTRO: humble
