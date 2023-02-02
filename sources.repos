@@ -43,8 +43,8 @@ repositories:
     version: tier4/main
   universe/external/ndt_omp:
     type: git
-    url: https://github.com/esteve/ndt_omp.git
-    version: patch-1
+    url: https://github.com/tier4/ndt_omp.git
+    version: tier4/main
   universe/external/pointcloud_to_laserscan:
     type: git
     url: https://github.com/tier4/pointcloud_to_laserscan.git
