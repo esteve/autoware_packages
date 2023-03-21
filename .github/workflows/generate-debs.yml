@@ -8,6 +8,8 @@ jobs:
     steps:
       - uses: jspricke/ros-deb-builder-action@main
         with:
+          ROSDEP_SOURCE: yaml https://s3.amazonaws.com/autonomoustuff-repo/autonomoustuff-public-humble.yaml
+          SBUILD_CONFIG: $extra_repositories = ["deb [trusted=yes] https://s3.amazonaws.com/autonomoustuff-repo/ focal main"];
           DEB_DISTRO: jammy
           ROS_DISTRO: humble
           REPOS_FILE: sources.repos
