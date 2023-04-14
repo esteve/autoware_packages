@@ -29,6 +29,13 @@ jobs:
     needs: start-runner # required to start the main job when the runner is ready
     runs-on: ${{ needs.start-runner.outputs.label }} # run the job on the newly created runner
     steps:
+      - name: Debug
+        run: |
+          id
+          cat /etc/passwd
+          ls la
+          pwd
+          set
       - uses: jspricke/ros-deb-builder-action@main
         with:
           ROSDEP_SOURCE: yaml https://s3.amazonaws.com/autonomoustuff-repo/autonomoustuff-public-humble.yaml
