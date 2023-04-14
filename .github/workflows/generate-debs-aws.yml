@@ -33,7 +33,7 @@ jobs:
         run: |
           id
           cat /etc/passwd
-          ls la
+          ls -la
           pwd
           set
       - uses: jspricke/ros-deb-builder-action@main
