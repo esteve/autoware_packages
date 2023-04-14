@@ -4,6 +4,7 @@ on: push
 
 jobs:
   build_humble:
+    name: Build Debian packages for Autoware (Humble)
     runs-on: ubuntu-22.04
     steps:
       - uses: jspricke/ros-deb-builder-action@main
