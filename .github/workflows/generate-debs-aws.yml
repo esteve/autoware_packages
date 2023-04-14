@@ -24,7 +24,7 @@ jobs:
           ec2-instance-type: t3.xlarge
           subnet-id: subnet-aa30b5a4
           security-group-id: sg-077f3dc71c060b826
-  build_humble:
+  build-humble:
     name: Build Debian packages for Autoware (Humble)
     needs: start-runner # required to start the main job when the runner is ready
     runs-on: ${{ needs.start-runner.outputs.label }} # run the job on the newly created runner
@@ -43,7 +43,7 @@ jobs:
     name: Stop self-hosted EC2 runner
     needs:
       - start-runner # required to get output from the start-runner job
-      - do-the-job # required to wait when the main job is done
+      - build-humble # required to wait when the main job is done
     runs-on: ubuntu-latest
     if: ${{ always() }} # required to stop the runner even if the error happened in the previous jobs
     steps:
