@@ -26,7 +26,7 @@ jobs:
           ec2-instance-type: t3.xlarge
           subnet-id: subnet-aa30b5a4
           security-group-id: sg-077f3dc71c060b826
-          run-runner-as-user: ubuntu
+          run-runner-as-service: true
   build-humble:
     name: Build Debian packages for Autoware (Humble)
     needs: start-runner # required to start the main job when the runner is ready
