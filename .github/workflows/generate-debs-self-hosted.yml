@@ -5,7 +5,6 @@ on: push
 jobs:
   build-humble:
     name: Build Debian packages for Autoware (Humble)
-    needs: start-runner # required to start the main job when the runner is ready
     runs-on: self-hosted
     steps:
       - name: Debug
