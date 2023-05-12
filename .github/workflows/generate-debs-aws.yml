@@ -35,8 +35,8 @@ jobs:
     steps:
       - name: Debug
         run: |
-          whoami
           id
+          whoami
           cat /etc/passwd
           ls -la
           pwd
