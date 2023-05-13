@@ -30,17 +30,10 @@ jobs:
           run-runner-as-user: ubuntu
   build-humble:
     name: Build Debian packages for Autoware (Humble)
-    needs: start-runner # required to start the main job when the runner is ready
-    runs-on: ${{ needs.start-runner.outputs.label }} # run the job on the newly created runner
+    needs: start-runner
+    runs-on: ${{ needs.start-runner.outputs.label }}
+    timeout-minutes: 720
     steps:
-      - name: Debug
-        run: |
-          id
-          whoami
-          cat /etc/passwd
-          ls -la
-          pwd
-          set
       - uses: jspricke/ros-deb-builder-action@main
         with:
           ROSDEP_SOURCE: yaml https://s3.amazonaws.com/autonomoustuff-repo/autonomoustuff-public-humble.yaml
@@ -54,10 +47,10 @@ jobs:
   stop-runner:
     name: Stop self-hosted EC2 runner
     needs:
-      - start-runner # required to get output from the start-runner job
-      - build-humble # required to wait when the main job is done
+      - start-runner
+      - build-humble
     runs-on: ubuntu-latest
-    if: ${{ always() }} # required to stop the runner even if the error happened in the previous jobs
+    if: ${{ always() }}
     steps:
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
