@@ -33,6 +33,12 @@ jobs:
     needs: start-runner
     runs-on: ${{ needs.start-runner.outputs.label }}
     timeout-minutes: 1440
+    permissions:
+      deployments: write
+      contents: write
+      statuses: write
+      actions: write
+      checks: read
     steps:
       - uses: jspricke/ros-deb-builder-action@main
         with:
