@@ -22,7 +22,7 @@ jobs:
         with:
           mode: start
           github-token: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN }}
-          ec2-image-id: ami-007855ac798b5175e
+          ec2-image-id: ami-0291cd890d07e3b8a
           ec2-instance-type: t3.xlarge
           subnet-id: subnet-aa30b5a4
           security-group-id: sg-077f3dc71c060b826
