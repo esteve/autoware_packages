@@ -46,7 +46,8 @@ jobs:
           SBUILD_CONF: $extra_repositories = ["deb [trusted=yes] https://s3.amazonaws.com/autonomoustuff-repo/ jammy main"];
           DEB_DISTRO: jammy
           ROS_DISTRO: humble
-          REPOS_FILE: https://raw.githubusercontent.com/autowarefoundation/autoware/release/2023.04/autoware.repos
+          REPOS_FILE: https://raw.githubusercontent.com/autowarefoundation/autoware/0d5c0c61f709d12e6ad19bed35234207c3a5f1a6/autoware.repos
+          # REPOS_FILE: https://raw.githubusercontent.com/autowarefoundation/autoware/release/2023.04/autoware.repos
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SQUASH_HISTORY: true
           SKIP_PACKAGES: velodyne_pointcloud velodyne_msgs velodyne_driver traffic_light_classifier traffic_light_ssd_fine_detector tensorrt_yolo tier4_perception_launch autoware_launch
