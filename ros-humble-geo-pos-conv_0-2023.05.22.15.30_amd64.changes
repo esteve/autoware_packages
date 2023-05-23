@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Sat, 03 Oct 2020 00:00:00 -0000
+Source: ros-humble-geo-pos-conv
+Binary: ros-humble-geo-pos-conv
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2023.05.22.15.30
+Distribution: jammy
+Urgency: high
+Maintainer: Yamato Ando <yamato.ando@tier4.jp>
+Changed-By: Yamato Ando <yamato.ando@tier4.jp>
+Description:
+ ros-humble-geo-pos-conv - The ROS2 geo_pos_conv package
+Changes:
+ ros-humble-geo-pos-conv (0-2023.05.22.15.30) jammy; urgency=high
+ .
+   * Convert package to ROS2
+Checksums-Sha1:
+ 5efa361cd11451bca3e2b6be61bee50778616da7 11498 ros-humble-geo-pos-conv-dbgsym_0-2023.05.22.15.30_amd64.ddeb
+ 72d9f1fb8b265e4c03e05ec2e07da493c88a8330 15168 ros-humble-geo-pos-conv_0-2023.05.22.15.30_amd64.buildinfo
+ 3c3fcc90e65d01a5c32d32a6748323c746b628b9 13758 ros-humble-geo-pos-conv_0-2023.05.22.15.30_amd64.deb
+Checksums-Sha256:
+ 276942b90a96825efb37f12abe578ae168b9ae0c5e1073363b18c4b5f8e282f3 11498 ros-humble-geo-pos-conv-dbgsym_0-2023.05.22.15.30_amd64.ddeb
+ b802bf671554fdf114c1b7fc3644f1d085df6d5f37b603b4e632ff46ed93bacb 15168 ros-humble-geo-pos-conv_0-2023.05.22.15.30_amd64.buildinfo
+ ac8231272a4bb40b9e6129fc811a4c7f489f1d65fe7b128e4a38a475df24342f 13758 ros-humble-geo-pos-conv_0-2023.05.22.15.30_amd64.deb
+Files:
+ 89965db97b0e7a3dbc9f6e1578e61aac 11498 debug optional ros-humble-geo-pos-conv-dbgsym_0-2023.05.22.15.30_amd64.ddeb
+ 09d2506867746757ac06b9542ff541e0 15168 misc optional ros-humble-geo-pos-conv_0-2023.05.22.15.30_amd64.buildinfo
+ 6acdb9c68c1637447de12ef687cbae0b 13758 misc optional ros-humble-geo-pos-conv_0-2023.05.22.15.30_amd64.deb

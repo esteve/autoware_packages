@@ -1,0 +1,723 @@
+ad_api_visualizers:
+  ubuntu:
+  - ros-humble-ad-api-visualizers
+autoware_adapi_v1_msgs:
+  ubuntu:
+  - ros-humble-autoware-adapi-v1-msgs
+autoware_adapi_version_msgs:
+  ubuntu:
+  - ros-humble-autoware-adapi-version-msgs
+autoware_auto_control_msgs:
+  ubuntu:
+  - ros-humble-autoware-auto-control-msgs
+autoware_auto_geometry_msgs:
+  ubuntu:
+  - ros-humble-autoware-auto-geometry-msgs
+autoware_auto_mapping_msgs:
+  ubuntu:
+  - ros-humble-autoware-auto-mapping-msgs
+autoware_auto_msgs:
+  ubuntu:
+  - ros-humble-autoware-auto-msgs
+autoware_auto_perception_msgs:
+  ubuntu:
+  - ros-humble-autoware-auto-perception-msgs
+autoware_auto_planning_msgs:
+  ubuntu:
+  - ros-humble-autoware-auto-planning-msgs
+autoware_auto_system_msgs:
+  ubuntu:
+  - ros-humble-autoware-auto-system-msgs
+autoware_auto_vehicle_msgs:
+  ubuntu:
+  - ros-humble-autoware-auto-vehicle-msgs
+autoware_common_msgs:
+  ubuntu:
+  - ros-humble-autoware-common-msgs
+autoware_control_msgs:
+  ubuntu:
+  - ros-humble-autoware-control-msgs
+autoware_lint_common:
+  ubuntu:
+  - ros-humble-autoware-lint-common
+autoware_cmake:
+  ubuntu:
+  - ros-humble-autoware-cmake
+autoware_ad_api_specs:
+  ubuntu:
+  - ros-humble-autoware-ad-api-specs
+autoware_auto_common:
+  ubuntu:
+  - ros-humble-autoware-auto-common
+autoware_auto_perception_rviz_plugin:
+  ubuntu:
+  - ros-humble-autoware-auto-perception-rviz-plugin
+autoware_auto_tf2:
+  ubuntu:
+  - ros-humble-autoware-auto-tf2
+autoware_auto_geometry:
+  ubuntu:
+  - ros-humble-autoware-auto-geometry
+autoware_launch:
+  ubuntu:
+  - ros-humble-autoware-launch
+autoware_localization_msgs:
+  ubuntu:
+  - ros-humble-autoware-localization-msgs
+autoware_map_msgs:
+  ubuntu:
+  - ros-humble-autoware-map-msgs
+autoware_perception_msgs:
+  ubuntu:
+  - ros-humble-autoware-perception-msgs
+autoware_planning_msgs:
+  ubuntu:
+  - ros-humble-autoware-planning-msgs
+autoware_point_types:
+  ubuntu:
+  - ros-humble-autoware-point-types
+autoware_sensing_msgs:
+  ubuntu:
+  - ros-humble-autoware-sensing-msgs
+autoware_testing:
+  ubuntu:
+  - ros-humble-autoware-testing
+autoware_utils:
+  ubuntu:
+  - ros-humble-autoware-utils
+awsim_sensor_kit_launch:
+  ubuntu:
+  - ros-humble-awsim-sensor-kit-launch
+bag_time_manager_rviz_plugin:
+  ubuntu:
+  - ros-humble-bag-time-manager-rviz-plugin
+bluetooth_monitor:
+  ubuntu:
+  - ros-humble-bluetooth-monitor
+camera_description:
+  ubuntu:
+  - ros-humble-camera-description
+common_awsim_sensor_launch:
+  ubuntu:
+  - ros-humble-common-awsim-sensor-launch
+common_sensor_launch:
+  ubuntu:
+  - ros-humble-common-sensor-launch
+component_interface_specs:
+  ubuntu:
+  - ros-humble-component-interface-specs
+cuda_utils:
+  ubuntu:
+  - ros-humble-cuda-utils
+fake_test_node:
+  ubuntu:
+  - ros-humble-fake-test-node
+geo_pos_conv:
+  ubuntu:
+  - ros-humble-geo-pos-conv
+global_parameter_loader:
+  ubuntu:
+  - ros-humble-global-parameter-loader
+image_transport_decompressor:
+  ubuntu:
+  - ros-humble-image-transport-decompressor
+imu_description:
+  ubuntu:
+  - ros-humble-imu-description
+individual_params:
+  ubuntu:
+  - ros-humble-individual-params
+kalman_filter:
+  ubuntu:
+  - ros-humble-kalman-filter
+lanelet2_extension:
+  ubuntu:
+  - ros-humble-lanelet2-extension
+lanelet2_map_preprocessor:
+  ubuntu:
+  - ros-humble-lanelet2-map-preprocessor
+livox_description:
+  ubuntu:
+  - ros-humble-livox-description
+livox_tag_filter:
+  ubuntu:
+  - ros-humble-livox-tag-filter
+localization_error_monitor:
+  ubuntu:
+  - ros-humble-localization-error-monitor
+map_height_fitter:
+  ubuntu:
+  - ros-humble-map-height-fitter
+map_tf_generator:
+  ubuntu:
+  - ros-humble-map-tf-generator
+morai_msgs:
+  ubuntu:
+  - ros-humble-morai-msgs
+mussp:
+  ubuntu:
+  - ros-humble-mussp
+ndt_omp:
+  ubuntu:
+  - ros-humble-ndt-omp
+object_range_splitter:
+  ubuntu:
+  - ros-humble-object-range-splitter
+osqp_interface:
+  ubuntu:
+  - ros-humble-osqp-interface
+pandar_description:
+  ubuntu:
+  - ros-humble-pandar-description
+pointcloud_to_laserscan:
+  ubuntu:
+  - ros-humble-pointcloud-to-laserscan
+polar_grid:
+  ubuntu:
+  - ros-humble-polar-grid
+radar_scan_to_pointcloud2:
+  ubuntu:
+  - ros-humble-radar-scan-to-pointcloud2
+radar_threshold_filter:
+  ubuntu:
+  - ros-humble-radar-threshold-filter
+sample_sensor_kit_launch:
+  ubuntu:
+  - ros-humble-sample-sensor-kit-launch
+sample_vehicle_description:
+  ubuntu:
+  - ros-humble-sample-vehicle-description
+sample_vehicle_launch:
+  ubuntu:
+  - ros-humble-sample-vehicle-launch
+shift_decider:
+  ubuntu:
+  - ros-humble-shift-decider
+signal_processing:
+  ubuntu:
+  - ros-humble-signal-processing
+simulator_compatibility_test:
+  ubuntu:
+  - ros-humble-simulator-compatibility-test
+tamagawa_imu_driver:
+  ubuntu:
+  - ros-humble-tamagawa-imu-driver
+tensorrt_common:
+  ubuntu:
+  - ros-humble-tensorrt-common
+tier4_automatic_goal_rviz_plugin:
+  ubuntu:
+  - ros-humble-tier4-automatic-goal-rviz-plugin
+tier4_autoware_api_launch:
+  ubuntu:
+  - ros-humble-tier4-autoware-api-launch
+tier4_control_launch:
+  ubuntu:
+  - ros-humble-tier4-control-launch
+tier4_control_msgs:
+  ubuntu:
+  - ros-humble-tier4-control-msgs
+tier4_datetime_rviz_plugin:
+  ubuntu:
+  - ros-humble-tier4-datetime-rviz-plugin
+tier4_debug_msgs:
+  ubuntu:
+  - ros-humble-tier4-debug-msgs
+gnss_poser:
+  ubuntu:
+  - ros-humble-gnss-poser
+pose2twist:
+  ubuntu:
+  - ros-humble-pose2twist
+stop_filter:
+  ubuntu:
+  - ros-humble-stop-filter
+tier4_autoware_utils:
+  ubuntu:
+  - ros-humble-tier4-autoware-utils
+crosswalk_traffic_light_estimator:
+  ubuntu:
+  - ros-humble-crosswalk-traffic-light-estimator
+dummy_diag_publisher:
+  ubuntu:
+  - ros-humble-dummy-diag-publisher
+ekf_localizer:
+  ubuntu:
+  - ros-humble-ekf-localizer
+front_vehicle_velocity_estimator:
+  ubuntu:
+  - ros-humble-front-vehicle-velocity-estimator
+goal_distance_calculator:
+  ubuntu:
+  - ros-humble-goal-distance-calculator
+grid_map_utils:
+  ubuntu:
+  - ros-humble-grid-map-utils
+gyro_odometer:
+  ubuntu:
+  - ros-humble-gyro-odometer
+image_diagnostics:
+  ubuntu:
+  - ros-humble-image-diagnostics
+imu_corrector:
+  ubuntu:
+  - ros-humble-imu-corrector
+interpolation:
+  ubuntu:
+  - ros-humble-interpolation
+kinematic_evaluator:
+  ubuntu:
+  - ros-humble-kinematic-evaluator
+localization_evaluator:
+  ubuntu:
+  - ros-humble-localization-evaluator
+map_loader:
+  ubuntu:
+  - ros-humble-map-loader
+motion_utils:
+  ubuntu:
+  - ros-humble-motion-utils
+map_based_prediction:
+  ubuntu:
+  - ros-humble-map-based-prediction
+path_distance_calculator:
+  ubuntu:
+  - ros-humble-path-distance-calculator
+perception_utils:
+  ubuntu:
+  - ros-humble-perception-utils
+heatmap_visualizer:
+  ubuntu:
+  - ros-humble-heatmap-visualizer
+lidar_centerpoint:
+  ubuntu:
+  - ros-humble-lidar-centerpoint
+planning_evaluator:
+  ubuntu:
+  - ros-humble-planning-evaluator
+probabilistic_occupancy_grid_map:
+  ubuntu:
+  - ros-humble-probabilistic-occupancy-grid-map
+radar_fusion_to_detected_object:
+  ubuntu:
+  - ros-humble-radar-fusion-to-detected-object
+radar_static_pointcloud_filter:
+  ubuntu:
+  - ros-humble-radar-static-pointcloud-filter
+radar_tracks_msgs_converter:
+  ubuntu:
+  - ros-humble-radar-tracks-msgs-converter
+route_handler:
+  ubuntu:
+  - ros-humble-route-handler
+system_error_monitor:
+  ubuntu:
+  - ros-humble-system-error-monitor
+tier4_debug_rviz_plugin:
+  ubuntu:
+  - ros-humble-tier4-debug-rviz-plugin
+tier4_debug_tools:
+  ubuntu:
+  - ros-humble-tier4-debug-tools
+tier4_external_api_msgs:
+  ubuntu:
+  - ros-humble-tier4-external-api-msgs
+autoware_external_api_msgs:
+  ubuntu:
+  - ros-humble-autoware-external-api-msgs
+elevation_map_loader:
+  ubuntu:
+  - ros-humble-elevation-map-loader
+system_monitor:
+  ubuntu:
+  - ros-humble-system-monitor
+tier4_api_utils:
+  ubuntu:
+  - ros-humble-tier4-api-utils
+joy_controller:
+  ubuntu:
+  - ros-humble-joy-controller
+tier4_control_rviz_plugin:
+  ubuntu:
+  - ros-humble-tier4-control-rviz-plugin
+tier4_hmi_msgs:
+  ubuntu:
+  - ros-humble-tier4-hmi-msgs
+tier4_localization_launch:
+  ubuntu:
+  - ros-humble-tier4-localization-launch
+tier4_localization_msgs:
+  ubuntu:
+  - ros-humble-tier4-localization-msgs
+initial_pose_button_panel:
+  ubuntu:
+  - ros-humble-initial-pose-button-panel
+ndt_scan_matcher:
+  ubuntu:
+  - ros-humble-ndt-scan-matcher
+tier4_map_launch:
+  ubuntu:
+  - ros-humble-tier4-map-launch
+tier4_pcl_extensions:
+  ubuntu:
+  - ros-humble-tier4-pcl-extensions
+pointcloud_preprocessor:
+  ubuntu:
+  - ros-humble-pointcloud-preprocessor
+compare_map_segmentation:
+  ubuntu:
+  - ros-humble-compare-map-segmentation
+occupancy_grid_map_outlier_filter:
+  ubuntu:
+  - ros-humble-occupancy-grid-map-outlier-filter
+tier4_perception_launch:
+  ubuntu:
+  - ros-humble-tier4-perception-launch
+tier4_perception_msgs:
+  ubuntu:
+  - ros-humble-tier4-perception-msgs
+bytetrack:
+  ubuntu:
+  - ros-humble-bytetrack
+detected_object_feature_remover:
+  ubuntu:
+  - ros-humble-detected-object-feature-remover
+detected_object_validation:
+  ubuntu:
+  - ros-humble-detected-object-validation
+dummy_perception_publisher:
+  ubuntu:
+  - ros-humble-dummy-perception-publisher
+euclidean_cluster:
+  ubuntu:
+  - ros-humble-euclidean-cluster
+image_projection_based_fusion:
+  ubuntu:
+  - ros-humble-image-projection-based-fusion
+lidar_apollo_instance_segmentation:
+  ubuntu:
+  - ros-humble-lidar-apollo-instance-segmentation
+multi_object_tracker:
+  ubuntu:
+  - ros-humble-multi-object-tracker
+object_merger:
+  ubuntu:
+  - ros-humble-object-merger
+shape_estimation:
+  ubuntu:
+  - ros-humble-shape-estimation
+detection_by_tracker:
+  ubuntu:
+  - ros-humble-detection-by-tracker
+tensorrt_yolo:
+  ubuntu:
+  - ros-humble-tensorrt-yolo
+tensorrt_yolox:
+  ubuntu:
+  - ros-humble-tensorrt-yolox
+tier4_perception_rviz_plugin:
+  ubuntu:
+  - ros-humble-tier4-perception-rviz-plugin
+tier4_planning_launch:
+  ubuntu:
+  - ros-humble-tier4-planning-launch
+tier4_planning_msgs:
+  ubuntu:
+  - ros-humble-tier4-planning-msgs
+costmap_generator:
+  ubuntu:
+  - ros-humble-costmap-generator
+external_velocity_limit_selector:
+  ubuntu:
+  - ros-humble-external-velocity-limit-selector
+planning_debug_tools:
+  ubuntu:
+  - ros-humble-planning-debug-tools
+planning_test_utils:
+  ubuntu:
+  - ros-humble-planning-test-utils
+scenario_selector:
+  ubuntu:
+  - ros-humble-scenario-selector
+tier4_rtc_msgs:
+  ubuntu:
+  - ros-humble-tier4-rtc-msgs
+rtc_auto_mode_manager:
+  ubuntu:
+  - ros-humble-rtc-auto-mode-manager
+rtc_interface:
+  ubuntu:
+  - ros-humble-rtc-interface
+rtc_manager_rviz_plugin:
+  ubuntu:
+  - ros-humble-rtc-manager-rviz-plugin
+rtc_replayer:
+  ubuntu:
+  - ros-humble-rtc-replayer
+tier4_screen_capture_rviz_plugin:
+  ubuntu:
+  - ros-humble-tier4-screen-capture-rviz-plugin
+tier4_sensing_launch:
+  ubuntu:
+  - ros-humble-tier4-sensing-launch
+tier4_simulated_clock_rviz_plugin:
+  ubuntu:
+  - ros-humble-tier4-simulated-clock-rviz-plugin
+tier4_simulation_msgs:
+  ubuntu:
+  - ros-humble-tier4-simulation-msgs
+diagnostic_converter:
+  ubuntu:
+  - ros-humble-diagnostic-converter
+fault_injection:
+  ubuntu:
+  - ros-humble-fault-injection
+tier4_simulator_launch:
+  ubuntu:
+  - ros-humble-tier4-simulator-launch
+tier4_state_rviz_plugin:
+  ubuntu:
+  - ros-humble-tier4-state-rviz-plugin
+tier4_system_launch:
+  ubuntu:
+  - ros-humble-tier4-system-launch
+tier4_system_msgs:
+  ubuntu:
+  - ros-humble-tier4-system-msgs
+component_interface_tools:
+  ubuntu:
+  - ros-humble-component-interface-tools
+component_interface_utils:
+  ubuntu:
+  - ros-humble-component-interface-utils
+ad_api_adaptors:
+  ubuntu:
+  - ros-humble-ad-api-adaptors
+automatic_pose_initializer:
+  ubuntu:
+  - ros-humble-automatic-pose-initializer
+component_state_monitor:
+  ubuntu:
+  - ros-humble-component-state-monitor
+default_ad_api:
+  ubuntu:
+  - ros-humble-default-ad-api
+emergency_handler:
+  ubuntu:
+  - ros-humble-emergency-handler
+mrm_comfortable_stop_operator:
+  ubuntu:
+  - ros-humble-mrm-comfortable-stop-operator
+mrm_emergency_stop_operator:
+  ubuntu:
+  - ros-humble-mrm-emergency-stop-operator
+pose_initializer:
+  ubuntu:
+  - ros-humble-pose-initializer
+tier4_api_msgs:
+  ubuntu:
+  - ros-humble-tier4-api-msgs
+tier4_traffic_light_rviz_plugin:
+  ubuntu:
+  - ros-humble-tier4-traffic-light-rviz-plugin
+tier4_v2x_msgs:
+  ubuntu:
+  - ros-humble-tier4-v2x-msgs
+dummy_infrastructure:
+  ubuntu:
+  - ros-humble-dummy-infrastructure
+tier4_vehicle_launch:
+  ubuntu:
+  - ros-humble-tier4-vehicle-launch
+tier4_vehicle_msgs:
+  ubuntu:
+  - ros-humble-tier4-vehicle-msgs
+raw_vehicle_cmd_converter:
+  ubuntu:
+  - ros-humble-raw-vehicle-cmd-converter
+accel_brake_map_calibrator:
+  ubuntu:
+  - ros-humble-accel-brake-map-calibrator
+external_cmd_converter:
+  ubuntu:
+  - ros-humble-external-cmd-converter
+tier4_auto_msgs_converter:
+  ubuntu:
+  - ros-humble-tier4-auto-msgs-converter
+autoware_iv_external_api_adaptor:
+  ubuntu:
+  - ros-humble-autoware-iv-external-api-adaptor
+autoware_iv_internal_api_adaptor:
+  ubuntu:
+  - ros-humble-autoware-iv-internal-api-adaptor
+awapi_awiv_adapter:
+  ubuntu:
+  - ros-humble-awapi-awiv-adapter
+external_cmd_selector:
+  ubuntu:
+  - ros-humble-external-cmd-selector
+tier4_calibration_rviz_plugin:
+  ubuntu:
+  - ros-humble-tier4-calibration-rviz-plugin
+tier4_vehicle_rviz_plugin:
+  ubuntu:
+  - ros-humble-tier4-vehicle-rviz-plugin
+time_utils:
+  ubuntu:
+  - ros-humble-time-utils
+topic_state_monitor:
+  ubuntu:
+  - ros-humble-topic-state-monitor
+traffic_light_classifier:
+  ubuntu:
+  - ros-humble-traffic-light-classifier
+traffic_light_map_based_detector:
+  ubuntu:
+  - ros-humble-traffic-light-map-based-detector
+traffic_light_selector:
+  ubuntu:
+  - ros-humble-traffic-light-selector
+traffic_light_ssd_fine_detector:
+  ubuntu:
+  - ros-humble-traffic-light-ssd-fine-detector
+traffic_light_visualization:
+  ubuntu:
+  - ros-humble-traffic-light-visualization
+trtexec_vendor:
+  ubuntu:
+  - ros-humble-trtexec-vendor
+tvm_utility:
+  ubuntu:
+  - ros-humble-tvm-utility
+lidar_apollo_segmentation_tvm:
+  ubuntu:
+  - ros-humble-lidar-apollo-segmentation-tvm
+lidar_apollo_segmentation_tvm_nodes:
+  ubuntu:
+  - ros-humble-lidar-apollo-segmentation-tvm-nodes
+lidar_centerpoint_tvm:
+  ubuntu:
+  - ros-humble-lidar-centerpoint-tvm
+twist2accel:
+  ubuntu:
+  - ros-humble-twist2accel
+vehicle_info_util:
+  ubuntu:
+  - ros-humble-vehicle-info-util
+autonomous_emergency_braking:
+  ubuntu:
+  - ros-humble-autonomous-emergency-braking
+control_performance_analysis:
+  ubuntu:
+  - ros-humble-control-performance-analysis
+freespace_planning_algorithms:
+  ubuntu:
+  - ros-humble-freespace-planning-algorithms
+freespace_planner:
+  ubuntu:
+  - ros-humble-freespace-planner
+ground_segmentation:
+  ubuntu:
+  - ros-humble-ground-segmentation
+lane_departure_checker:
+  ubuntu:
+  - ros-humble-lane-departure-checker
+behavior_path_planner:
+  ubuntu:
+  - ros-humble-behavior-path-planner
+mission_planner:
+  ubuntu:
+  - ros-humble-mission-planner
+motion_velocity_smoother:
+  ubuntu:
+  - ros-humble-motion-velocity-smoother
+behavior_velocity_planner:
+  ubuntu:
+  - ros-humble-behavior-velocity-planner
+obstacle_avoidance_planner:
+  ubuntu:
+  - ros-humble-obstacle-avoidance-planner
+obstacle_collision_checker:
+  ubuntu:
+  - ros-humble-obstacle-collision-checker
+obstacle_cruise_planner:
+  ubuntu:
+  - ros-humble-obstacle-cruise-planner
+obstacle_stop_planner:
+  ubuntu:
+  - ros-humble-obstacle-stop-planner
+obstacle_velocity_limiter:
+  ubuntu:
+  - ros-humble-obstacle-velocity-limiter
+operation_mode_transition_manager:
+  ubuntu:
+  - ros-humble-operation-mode-transition-manager
+pacmod_interface:
+  ubuntu:
+  - ros-humble-pacmod-interface
+planning_validator:
+  ubuntu:
+  - ros-humble-planning-validator
+simple_planning_simulator:
+  ubuntu:
+  - ros-humble-simple-planning-simulator
+static_centerline_optimizer:
+  ubuntu:
+  - ros-humble-static-centerline-optimizer
+steer_offset_estimator:
+  ubuntu:
+  - ros-humble-steer-offset-estimator
+surround_obstacle_checker:
+  ubuntu:
+  - ros-humble-surround-obstacle-checker
+tier4_localization_rviz_plugin:
+  ubuntu:
+  - ros-humble-tier4-localization-rviz-plugin
+tier4_planning_rviz_plugin:
+  ubuntu:
+  - ros-humble-tier4-planning-rviz-plugin
+trajectory_follower_base:
+  ubuntu:
+  - ros-humble-trajectory-follower-base
+mpc_lateral_controller:
+  ubuntu:
+  - ros-humble-mpc-lateral-controller
+pid_longitudinal_controller:
+  ubuntu:
+  - ros-humble-pid-longitudinal-controller
+pure_pursuit:
+  ubuntu:
+  - ros-humble-pure-pursuit
+trajectory_follower_node:
+  ubuntu:
+  - ros-humble-trajectory-follower-node
+vehicle_cmd_gate:
+  ubuntu:
+  - ros-humble-vehicle-cmd-gate
+vehicle_velocity_converter:
+  ubuntu:
+  - ros-humble-vehicle-velocity-converter
+velodyne_description:
+  ubuntu:
+  - ros-humble-velodyne-description
+awsim_sensor_kit_description:
+  ubuntu:
+  - ros-humble-awsim-sensor-kit-description
+sample_sensor_kit_description:
+  ubuntu:
+  - ros-humble-sample-sensor-kit-description
+velodyne_monitor:
+  ubuntu:
+  - ros-humble-velodyne-monitor
+velodyne_msgs:
+  ubuntu:
+  - ros-humble-velodyne-msgs
+velodyne_driver:
+  ubuntu:
+  - ros-humble-velodyne-driver
+velodyne_pointcloud:
+  ubuntu:
+  - ros-humble-velodyne-pointcloud
+vls_description:
+  ubuntu:
+  - ros-humble-vls-description
